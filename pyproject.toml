@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pdf-to-csv"
+version = "0.1.0"
+description = ""
+authors = ["Mandresy ANDRI"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.41.1"
+pillow = "^11.0.0"
+pymupdf = "^1.25.1"
+pytesseract = "^0.3.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
